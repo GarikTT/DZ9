@@ -147,8 +147,6 @@ ServerName localhost
 PidFile /var/run/httpd-second.pid
 
 	sed -i 's*Listen 80*Listen 80\nServerName localhost\nPidFile /var/run/httpd-second.pid*g' /etc/httpd/conf/second.conf
-#25. # Переименуем юнит-файл в формат, для запуска нескольких экземпляров:
-	# mv /usr/lib/systemd/system/httpd.service /usr/lib/systemd/system/httpd-@.service
 26. Перечитаем настройки systemd:
 	systemctl daemon-reload
 27. Запустим экземпляры веб-сервера:
