@@ -1,5 +1,3 @@
-https://codeberg.org/54210395/otus_linux_hw/src/branch/master/hw_12/readme.md
-
 Занятие 9 - Инициализация системы. Systemd.
 Цели занятия - 
 	1. писать сценарии автозагрузки демонов;
